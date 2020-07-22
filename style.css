@@ -1,0 +1,61 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(117, 220, 252);
+    
+}
+.wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    min-height: 100vh;
+    flex-direction: column;
+   
+}
+
+.container {
+    background-color: rgb(54, 54, 54);
+    height: 400px;
+    width: 140px;
+    border-radius: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 0;
+    flex-direction: column;
+    margin-bottom: 15px;
+}
+
+.circle {
+    background-color: rgba(0, 0, 0, 0.3);
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.circle.red {
+    background-color: red;
+    box-shadow: 0 0 25px red;
+}
+
+.circle.yellow {
+    background-color: yellow;
+    box-shadow: 0 0 25px yellow;
+}
+
+.circle.green {
+    background-color: green;
+    box-shadow: 0 0 25px green;
+}
+
+.my-button {
+    width: 100px;
+    height: 100px;
+    border-radius: 25px;
+    font-size: large;
+    cursor: pointer;
+    outline: none;
+}
